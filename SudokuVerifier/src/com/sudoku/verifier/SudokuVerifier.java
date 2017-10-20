@@ -50,7 +50,7 @@ public class SudokuVerifier {
 
 	class SudokuBoard {
 		
-		private int[][] grid = new int[9][];
+		private int[][] grid = null;
 		
 		public SudokuBoard(int[][] grid) {
 			this.grid = grid;
