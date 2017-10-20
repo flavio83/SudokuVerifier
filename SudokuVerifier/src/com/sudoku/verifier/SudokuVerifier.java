@@ -45,7 +45,7 @@ public class SudokuVerifier {
 	}
 	
 	public boolean isValid() {
-		return sboard.validateSudockBord();
+		return sboard.validateSudockBoard();
 	}
 
 	class SudokuBoard {
@@ -82,7 +82,7 @@ public class SudokuVerifier {
 			  return aux;
 		};
 
-		public boolean validateSudockBord() {
+		public boolean validateSudockBoard() {
 		    for (int f=0; f<9; f++) {
 		        int[] row = new int[9];
 		        int[] square = new int[9];
